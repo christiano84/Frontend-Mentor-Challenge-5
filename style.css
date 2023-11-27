@@ -97,9 +97,9 @@ header {
     background-color: #444a64;
 }
 
-/* ---- TABLET AND PHONE SIZE ---- */
+/* ---- LANDSCAPE VIEW ---- */
 
-@media (orientation:landscape) and (max-width: 1010px) {
+@media (orientation:landscape) and (max-width: 1010px) and (max-height: 570px) {
   header nav .menu .menu-item a {
     font-size: 16px;
     padding: 9px;
@@ -114,6 +114,8 @@ header {
     margin-top: 20px;
   }
 }
+
+/* ---- MOBILE VIEW ---- */
 
 @media (max-width: 1010px) { 
   nav {
@@ -152,6 +154,10 @@ header {
   .icon-close:hover path {
     fill: hsl(0, 94%, 66%);
     transition: .3s;
+  }
+
+  .icon-close.active {
+    display: initial
   }
 
   .btn-login {

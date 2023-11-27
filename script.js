@@ -100,7 +100,7 @@ function showMenu() {
   // Show the menu
   nav.style.right = '0'
   // Show X button
-  iconClose.style.display = 'initial'
+  iconClose.classList.add("active")
   // Hide hamburger button
   iconHamburger.classList.add("active")
   // Show mobile logo
@@ -113,7 +113,7 @@ function hideMenu() {
   // Hide the menu
   nav.style.right = '-100%' 
   // Hide the X button
-  iconClose.style.display = 'none'
+  iconClose.classList.remove("active")
   // Show the hamburger button
   iconHamburger.classList.remove("active")
   // Hide the mobile logo
