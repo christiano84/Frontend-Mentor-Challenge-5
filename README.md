@@ -2,6 +2,10 @@ VIEW THE LIVE SITE HERE
 
 https://christiano84.github.io/Frontend-Mentor-Challenge-5/
 
+CHALLENGE SPEC
+
+https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158
+
 This challenge was done in vanilla HTML, CSS and Javascript.
 
 It has over 800 lines of CSS, 261 lines of HTML and 143 lines of Javascript. It was done using a mobile first workflow.
