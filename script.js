@@ -93,12 +93,8 @@ form.onsubmit = (e) => {
 
 var nav = document.getElementById("navMenu")
 var mobileLogo = document.querySelector(".svg-logo-mobile")
-var logo = document.querySelector(".svg-logo")
 var iconClose = document.querySelector(".icon-close")
 var iconHamburger = document.querySelector(".hamburger")
-var socialNavContainer = document.querySelector(".social-nav-container")
-var htmlTag = document.getElementById("html")
-var bodyTag = document.getElementById("body")
 
 function showMenu() {
   // Show the menu
@@ -107,16 +103,8 @@ function showMenu() {
   iconClose.style.display = 'initial'
   // Hide hamburger button
   iconHamburger.classList.add("active")
-  // Show the social nav container
-  socialNavContainer.style.display = 'initial'
   // Show mobile logo
   mobileLogo.classList.add("active")
-  // Hide regular logo
-  logo.classList.add("active")
-  // Prevent scrolling while menu is active
-  htmlTag.classList.add("noscroll")
-  bodyTag.classList.add("noscroll")
-
   // Mobile Menu Fade effect
   nav.classList.toggle('fade');
 }
@@ -128,16 +116,8 @@ function hideMenu() {
   iconClose.style.display = 'none'
   // Show the hamburger button
   iconHamburger.classList.remove("active")
-  // Hide the social nav container
-  socialNavContainer.style.display = 'none'
   // Hide the mobile logo
   mobileLogo.classList.remove("active")
-  // Show the regular logo
-  logo.classList.remove("active")
-  // Allow scrolling while menu is hidden
-  htmlTag.classList.remove("noscroll")
-  bodyTag.classList.remove("noscroll")
-
   // Mobile Menu Fade effect
   nav.classList.toggle('fade');
 }

@@ -81,7 +81,6 @@ header {
 
 .icon-close {
   display: none;
-  z-index: 100;
 }
 
 .hamburger {
@@ -100,7 +99,23 @@ header {
 
 /* ---- TABLET AND PHONE SIZE ---- */
 
-@media  (max-width: 1010px) {
+@media (orientation:landscape) and (max-width: 1010px) {
+  header nav .menu .menu-item a {
+    font-size: 16px;
+    padding: 9px;
+  }
+
+  nav .social-nav-container {
+    bottom: 30px;
+  }
+
+  .menu-item .btn-login {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1010px) { 
   nav {
     padding: 0 6%;
     position: fixed;
@@ -112,12 +127,6 @@ header {
     background-color: hsl(229, 31%, 21%);
     opacity: 0;
     transition: opacity 1s; 
-  }
-
-  html.noscroll, 
-  body.noscroll {
-    height: 100%; 
-    overflow: hidden
   }
 
   nav .menu {
@@ -164,10 +173,9 @@ header {
 
   .social-nav-container {
     position: fixed;
-    bottom: 50px; 
-    left: 50%;   
+    bottom: 50px;
+    left: 50%;
     transform: translateX(-50%);
-    display: none;
   }
 
   .icon-social-fb {
@@ -181,20 +189,30 @@ header {
     transition: .3s;
   }
 
+  .svg-logo-mobile {
+    position: fixed;
+    top: 40px;
+  }
+
   .svg-logo-mobile.active {
     display: initial;
-    z-index: 101;
   }
 
   .svg-logo.active {
     display: none;
   }
 
+  .icon-close {
+    position: fixed;
+    top: 40px;
+    right: 6%;
+  }
+
   .icon-close path {
     fill: #fff;
     cursor: pointer;
   }
-}
+} 
 
 /* ---- DESKTOP VIEW ---- */
 
@@ -649,11 +667,11 @@ header {
 
 .email-textbox.error {
   border-radius: 5px 5px 0 0;
-  box-shadow:inset 0px 0px 0px 2px hsl(0, 94%, 66%);
+  box-shadow: inset 0px 0px 0px 2px hsl(0, 94%, 66%);
 }
 
 .email-textbox:focus {
-  box-shadow:inset 0px 0px 0px 2px hsl(0, 94%, 66%);
+  box-shadow: inset 0px 0px 0px 2px hsl(0, 94%, 66%);
   transition: .1s linear; 
 }
 
