@@ -4,11 +4,11 @@ https://christiano84.github.io/Frontend-Mentor-Challenge-5/
 
 This challenge was done in vanilla HTML, CSS and Javascript.
 
-It has over 800 lines of CSS, 261 lines of HTML and 143 lines of Javascript. 
+It has over 800 lines of CSS, 261 lines of HTML and 143 lines of Javascript. It was done using a mobile first workflow.
 
 For this challenge I had to 
 
-1. Complete a website based on a design file without the use of software like Figma or Adobe
+1. Complete a website based on a design file without the use of software like Figma or Adobe 
 2. Using Javascript program a tab section, a FAQ section and email validation with custom error message styling (The validation built
 into HTML5 forms is going to be better than whatever regular expression you can put together in Javascript but overriding the default
 validation behavior of the form and setting a novalidate attribute on the HTML input was the only way to complete the aesthetic part of
