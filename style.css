@@ -98,7 +98,6 @@ header {
     background-color: #444a64;
 }
 
-
 /* ---- TABLET AND PHONE SIZE ---- */
 
 @media  (max-width: 1010px) {
@@ -121,17 +120,17 @@ header {
     overflow: hidden
   }
 
-  nav ul {
+  nav .menu {
     text-align: center;
     margin-top: 100px;
   }    
 
-  nav ul li:hover {
+  nav .menu .menu-item a:hover {
     color: hsl(0, 94%, 66%);
     transition: .3s;
   }
 
-  nav ul li a {
+  nav .menu .menu-item a {
     color: #fff;
     text-transform: uppercase;
     font-size: 24px;
@@ -139,10 +138,6 @@ header {
     font-weight: 300;
     display: block;
     padding: 30px;
-  }
-
-  nav ul li a:last-of-type {
-    padding: 30px 0;
   }
 
   .icon-close:hover path {
@@ -157,6 +152,7 @@ header {
     border: 3px solid #fff;
     font-size: 24px;
     font-weight: 400;
+    margin-top: 30px;
   }
 
   .btn-login:hover {
@@ -213,19 +209,19 @@ header {
     align-items: center;
   }
 
-  header nav ul {
+  header nav .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  header nav ul li {
+  header nav .menu .menu-item {
     text-transform: uppercase;
     margin-right: 40px;
     letter-spacing: 2px;
   }
 
-  header nav ul li:last-of-type {
+  header nav .menu .menu-item:last-of-type {
     margin-right: 0;
   }
 
@@ -289,7 +285,7 @@ header {
 .btn-firefox {
   background-color: #f9f9f9;
   color: #595961;
-  padding: 15px;
+  padding: 15px 25px;
   border: none;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 5px;
 }
