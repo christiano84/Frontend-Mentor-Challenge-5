@@ -4,7 +4,7 @@ https://christiano84.github.io/Frontend-Mentor-Challenge-5/
 
 This challenge was done in vanilla HTML, CSS and Javascript.
 
-This one has over 800 lines of CSS, 261 lines of HTML and 143 lines of Javascript. 
+It has over 800 lines of CSS, 261 lines of HTML and 143 lines of Javascript. 
 
 For this challenge I had to 
 
