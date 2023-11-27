@@ -12,13 +12,10 @@ For this challenge I had to
 2. Using Javascript program a tab section, a FAQ section and email validation with custom error message styling (The validation built
 into HTML5 forms is going to be better than whatever regular expression you can put together in Javascript but overriding the default
 validation behavior of the form and setting a novalidate attribute on the HTML input was the only way to complete the aesthetic part of
-the challenge and still preserve browser functionality (using an input type="text" was another option but this would break browser
-functionality for things like auto-complete etc.))
+the challenge and still preserve browser functionality for things like auto-complete.
 
-If I had to do it all over again, I would have handled the tab section of the page programatically with Javascript (preferably in 
-a framework like React, Angular, Vue etc.) instead of including all 3 tabs in the base HTML and using Javascript to toggle them.
-Having done it this way I feel that it can cause unnecessary complexity in the HTML and CSS. 
-
+If I had to do it all over again, I would have handled the tab section of the page programatically with Javascript instead of including 
+all 3 tabs in the base HTML and using Javascript to toggle them. 
 
 # Frontend Mentor - Bookmark landing page
 
