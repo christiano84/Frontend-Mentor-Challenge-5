@@ -1,11 +1,3 @@
-VIEW THE LIVE SITE HERE
-
-https://christiano84.github.io/Frontend-Mentor-Challenge-5/
-
-CHALLENGE SPEC
-
-https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158
-
 This challenge was done in vanilla HTML, CSS and Javascript.
 
 It has over 800 lines of CSS, 261 lines of HTML and 143 lines of Javascript. It was done using a mobile first workflow.
@@ -18,6 +10,14 @@ into HTML5 forms is going to be better than any regular expression that can be p
 
 If I had to do it all over again, I would have handled the tab section of the page programatically with Javascript instead of including 
 all 3 tabs in the base HTML and using Javascript to toggle them. 
+
+VIEW THE LIVE SITE HERE
+
+https://christiano84.github.io/Frontend-Mentor-Challenge-5/
+
+CHALLENGE SPEC
+
+https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158
 
 # Frontend Mentor - Bookmark landing page
 
