@@ -126,14 +126,6 @@ header {
     margin-top: 100px;
   }    
 
-  nav ul li {
-    padding: 30px;
-  }
-
-  nav ul li:last-of-type {
-    padding: 30px 0;
-  }
-
   nav ul li:hover {
     color: hsl(0, 94%, 66%);
     transition: .3s;
@@ -146,6 +138,11 @@ header {
     letter-spacing: 2px;
     font-weight: 300;
     display: block;
+    padding: 30px;
+  }
+
+  nav ul li a:last-of-type {
+    padding: 30px 0;
   }
 
   .icon-close:hover path {
@@ -233,11 +230,11 @@ header {
   }
 
   .btn-login:hover {
-    transition: .3s ease-in-out;
     color: hsl(0, 94%, 66%);
     background-color: transparent;
     border: 2px solid hsl(0, 94%, 66%);
     box-shadow: none;    
+    transition: .3s ease-in-out;
   }
 
   .nav-line {
@@ -740,7 +737,7 @@ footer {
   text-align: center;
 }
 
-footer aside {
+.footer-nav {
   display: initial;
 }
 
@@ -799,7 +796,7 @@ footer aside {
   .footer-nav-ul li {
     margin: 0 20px 0;
   }
-  footer aside {
+  footer .footer-nav {
     display: flex;
   }
   .social-icons {
@@ -819,6 +816,4 @@ footer aside {
 
 .attribution a { 
   color: hsl(0, 94%, 66%);
- 
 }
-
