@@ -97,7 +97,7 @@ header {
     background-color: #444a64;
 }
 
-/* ---- LANDSCAPE VIEW ---- */
+/* ---- FIX MENU IN LANDSCAPE VIEW AND SMALL HEIGHT PORTRAIT VIEW ---- */
 
 @media (orientation:landscape) and (max-width: 1010px) and (max-height: 570px) {
   header nav .menu .menu-item a {
@@ -112,6 +112,18 @@ header {
   .menu-item .btn-login {
     font-size: 16px;
     margin-top: 20px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 332px) {
+  .social-nav-container {
+    display: none;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 575px) {
+  .social-nav-container {
+    display: none;
   }
 }
 
