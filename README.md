@@ -1,6 +1,6 @@
 I completed this challenge in vanilla HTML, CSS and Javascript.
 
-It has over 800 lines of CSS, 260+ lines of HTML and 120+ lines of Javascript. The layout was done while following a mobile first workflow.
+It has over 800 lines of CSS, 260+ lines of HTML and 120+ lines of Javascript. The code was done following a mobile first workflow.
 
 For this challenge I had to 
 
