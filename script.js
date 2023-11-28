@@ -69,7 +69,6 @@ form.onsubmit = (e) => {
 
     // Remove the form from view
     ctaWrapper.style.display = "none"
-    form.style.display = "none"
 
     // Create a new message in its place 'simulating' a successful email submission
     let divDone = document.createElement("div")
