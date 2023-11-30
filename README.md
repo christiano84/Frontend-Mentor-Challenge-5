@@ -2,7 +2,7 @@ I completed this 'challenge' in vanilla HTML, CSS and Javascript.
 
 It has over 800 lines of CSS, 260+ lines of HTML and 120+ lines of Javascript. It was done 'mobile first.'
 
-After looking at the specification I understood that these were the tasks I would ened to accomplish
+After looking at the specification I understood that these were the tasks I would have
 
 1. Create a website based on a design file without the use of software like Figma or Adobe 
 2. Using Javascript program a tab section, a FAQ section and email validation with custom error message styling (The validation built
