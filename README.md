@@ -17,7 +17,7 @@ I tried different techniques like using an inset box-shadow instead of a border 
 
 You may view all of the design files by looking at the images in the design folder in this repository. You may also look at the specification URL below but it will not show
 
-the entire design specs unless you download them so I've included them in the repo for convenience.
+the entire design specs unless you download it so I've included them in the repo for convenience.
 
 VIEW MY SOLUTION
 
