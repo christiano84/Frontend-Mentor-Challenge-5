@@ -11,6 +11,12 @@ into HTML5 forms is going to be better than any regular expression that can be p
 If I had to do it again I would handle the tab section of the page programatically with Javascript instead of including 
 all 3 tabs in the base HTML and using Javascript to toggle them. 
 
+I deviated from the specification on the 'active states' on some buttons due to the way adding a border on hover pushes down the elements around the button. Aesthetically it is not pleasing.
+
+I tried different techniques like using an inset box-shadow instead of a border but that also had its own issues with layout and aesthetic.
+
+You may view all of the design files by looking at the images in the design folder in this repository.
+
 VIEW MY SOLUTION
 
 https://christiano84.github.io/Frontend-Mentor-Challenge-5/
