@@ -6,7 +6,7 @@ I had to:
 
 1. Create a website based on a an image file design without the use of software like Figma or Adobe to give me exact font sizes and margins 
 2. Using Javascript program a tab section, a FAQ section and email validation with custom error message styling
-3. 
+
 I deviated from the specification on the 'active states' on some buttons due to the way adding a border on hover pushes down the elements around the button. Aesthetically it is not pleasing.
 
 I tried different techniques like using an inset box-shadow instead of a border but that also had its own issues with layout and aesthetic.
