@@ -1,6 +1,6 @@
-I completed this 'challenge' in vanilla HTML, CSS and Javascript.
+I completed this in vanilla HTML, CSS and Javascript.
 
-It has over 800 lines of CSS, 260+ lines of HTML and 120+ lines of Javascript. It was done 'mobile first.'
+It has over 800 lines of CSS, 260+ lines of HTML and 120+ lines of Javascript. It was done mobile first.
 
 After looking at the specification I understood that these were the tasks I would have
 
